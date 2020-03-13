@@ -718,6 +718,7 @@ blockquote {
   background-color: #fbfbfb;
 }
 
+
 blockquote p:last-child,
 blockquote ul:last-child,
 blockquote ol:last-child {
@@ -3319,7 +3320,7 @@ iframe,
 video,
 svg {
   max-width: 100%;
-  height: auto;
+  /*height: auto;*/
 }
 
 /*------------------ clear ------------------------------*/
@@ -5650,6 +5651,8 @@ pre {
   position: relative;
   padding: 32px 10px 0 10px;
   border-radius: 4px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 pre:before {
@@ -6582,7 +6585,7 @@ body.no-sidebar .sidebar {
 .marked-body h4,
 .marked-body h5,
 .marked-body h6 {
-  margin-top: 24px;
+  margin-top: 50px;
   margin-bottom: 16px;
   font-weight: 600;
   line-height: 1.25;
@@ -9461,4 +9464,12 @@ body.okayNav-loaded {
   margin: 0 0 10px;
   border-left: 3px solid #ffcc00;
   background-color: #fffae6;
+}
+
+div.a.embedly-card{
+  background:#fff;
+  border:solid 10px #e5e5e5;
+  padding:10px 15px;
+  margin:10px 10px;
+  max-width: 100% ;
 }
