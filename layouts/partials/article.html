@@ -23,7 +23,10 @@
       {{ .Content }}
     </div>
     <div class="article-footer">
+      <hr>
       {{- partial "post/copyright.html" . }}
+      <hr>
+      {{- partial "post/related.html" . }}
     </div>
   </article>
   {{- partial "post/comment.html" . }}

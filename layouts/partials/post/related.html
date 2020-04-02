@@ -1,0 +1,10 @@
+{{ $related := .Site.RegularPages.Related . }} {{ with $related }}
+<h3 class="widget-title">{{T "related_posts" }}</h3>
+    <ul class="post-copyright list-unstyled">
+    {{ range . }}
+     <li class="post-copyright-link hidden-xs">
+        <a href="{{- .Permalink }}" class="title">{{ .Title }}</a>
+     </li>
+    {{ end }}
+  </ul>
+{{ end }}

@@ -168,3 +168,7 @@ page_not_found_body:
   other: The page you are looking for might have been removed, had its name changed or is temporarily unavailable.
 page_not_found_back:
   other: Go Back
+
+related_posts:
+  other: Related Posts
+  
